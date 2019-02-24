@@ -3,8 +3,9 @@
 <hr />
 
 <ul>
-<li>Home</li>
+<li><%= link_to "Alpha Blog", articles_path %></li>
 <li><%= link_to 'About', about_path %></li>
 </ul>
 <hr />
 <p style="text-align:center;">Home - <%= link_to 'About', about_path %></p>
+<%= link_to "Alpha Blog", articles_path %> | <%= link_to "About", about_path %>
