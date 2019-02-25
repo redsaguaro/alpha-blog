@@ -30,6 +30,7 @@ $navbar-default-bg: black;
 .jumbotron h1 {
   color: #fff;
   text-align: center;
+  font-size: 70px;
   margin-bottom: 30px;
   letter-spacing: -1px;
   font-weight: bold;
@@ -37,11 +38,15 @@ $navbar-default-bg: black;
 
 .btn-xlarge {
   font-size: 1.7em;
-  background-color: black;
+  background-color: #175b77;
 }
 
 .bg-mycolor {
-  background-color: black;
+  background-color: #175b77;
+}
+
+.btn-hover {
+  background-color: #175b77;
 }
 
 footer {
