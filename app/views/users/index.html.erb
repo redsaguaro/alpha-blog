@@ -1,5 +1,8 @@
 <h1 align="center">All Alpha Bloggers</h1>
 <div align="center">
+  <div class="flickr_pagination">
+    <%= will_paginate %>
+  </div>
 <%= @users.each do |user| %>
   <ul class="listing">
     <div class="row mx-md-n5" style="margin-top: 10px;">
@@ -13,4 +16,7 @@
     </div>
   </ul>
 <% end %>
+<div class="flickr_pagination">
+  <%= will_paginate %>
+</div>
 </div>
