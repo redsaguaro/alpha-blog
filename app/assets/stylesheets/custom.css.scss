@@ -114,6 +114,16 @@ footer ul li {
   margin-left: .5rem !important;
 }
 
+.badge {
+  background-color:  #CEF6F5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
 .digg_pagination {
   background: white;
   cursor: default;
