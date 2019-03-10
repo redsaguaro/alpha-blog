@@ -1,4 +1,11 @@
 <h1 align="center"><%= "Category: " + @category.name %></h1>
+<% if logged_in? and current_user.admin? %>
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <span class="nav-link active"><%= link_to "Edit Category Name", edit_category_path(@category) %></span>
+    </li>
+  </ul>
+<% end %>
 <div align="center" class="flickr_pagination">
   <%= will_paginate @category_articles %>
 </div>
